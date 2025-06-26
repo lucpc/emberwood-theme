@@ -1,6 +1,6 @@
 {
-  "name": "fantasy-forest-theme",
-  "displayName": "Fantasy Forest Theme",
+  "name": "emberwood-theme",
+  "displayName": "Emberwood Theme",
   "publisher": "lucpc",
   "version": "0.0.1",
   "engines": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucpc/fantasy-forest-theme"
+    "url": "https://github.com/lucpc/emberwood-theme"
   },
-  "description": "A dark theme inspired by the colors of a fantasy forest, perfect for coding in a mystical environment.",
+  "description": "A rich, immersive dark theme inspired by mystical forests and glowing firelight, designed to enhance focus and bring a magical atmosphere to your coding experience.",
   "license": "MIT",
   "contributes": {
     "themes": [
       {
-        "label": "Fantasy Forest",
+        "label": "Emberwood",
         "uiTheme": "vs-dark",
-        "path": "./themes/fantasy-forest-color-theme.json"
+        "path": "./themes/emberwood-theme.json"
       }
     ]
   }

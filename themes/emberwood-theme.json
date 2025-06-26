@@ -1,46 +1,35 @@
 {
-  "name": "Fantasy Forest",
+  "name": "Emberwood",
   "type": "dark",
   "colors": {
-    //======================================================================
-    // EDITOR FUNDAMENTALS
-    //======================================================================
-    "editor.background": "#171C1A", // Main editor background
-    "editor.foreground": "#E0E5E3", // Default text color (off-white)
-    "editorCursor.foreground": "#FF6B2D", // Cursor color
-    "editor.lineHighlightBackground": "#222925", // Active line background
-    "editor.selectionBackground": "#2A363188", // Text selection background
-    "editor.selectionHighlightBackground": "#2A363144", // Background for other selected occurrences
-    "editorIndentGuide.background1": "#2A3631", // Inactive indent guide lines
-    "editorIndentGuide.activeBackground1": "#5A6964", // Active indent guide line
-    "editorWhitespace.foreground": "#33333366", // Color for spaces, tabs
-    "editorLineNumber.foreground": "#5A6964", // Inactive line numbers
-    "editorLineNumber.activeForeground": "#FF6B2D", // Active line number
-
-    //======================================================================
-    // GENERAL UI (BARS, TABS, ICONS)
-    //======================================================================
-    "sideBar.background": "#141917", // Sidebar background
-    "sideBar.foreground": "#E0E5E3", // Sidebar text
-    "activityBar.background": "#141917", // Activity bar background (icons on the left)
-    "activityBar.foreground": "#E0E5E3", // Icon color in the activity bar
-    "statusBar.background": "#141917", // Status bar background (bottom)
-    "statusBar.foreground": "#E0E5E3", // Status bar text
-    "statusBarItem.prominentForeground": "#86cea4", // Highlighted text in status bar (e.g., Git)
-    "titleBar.activeBackground": "#141917", // Window title bar background
-    "titleBar.activeForeground": "#E0E5E3", // Title bar text
-    "tab.activeBackground": "#171C1A", // Active tab background
-    "tab.inactiveBackground": "#141917", // Inactive tabs background
-    "tab.activeForeground": "#FF6B2D", // Active tab text
-    "tab.inactiveForeground": "#5A6964", // Inactive tabs text
-    "editorGroupHeader.tabsBackground": "#141917", // Tabs and action icons area background
-    "icon.foreground": "#E0E5E3", // General icon color (e.g., split screen)
-    "toolbar.hoverBackground": "#222925", // Toolbar icon hover background
-    "editorGroup.border": "#141917", // Removes border between editor and tabs
-
-    //======================================================================
-    // INTERACTIVE COMPONENTS (BUTTONS, INPUTS)
-    //======================================================================
+    "editor.background": "#171C1A",
+    "editor.foreground": "#E0E5E3",
+    "editorCursor.foreground": "#FF6B2D",
+    "editor.lineHighlightBackground": "#222925",
+    "editor.selectionBackground": "#2A363188",
+    "editor.selectionHighlightBackground": "#2A363144",
+    "editorIndentGuide.background1": "#2A3631",
+    "editorIndentGuide.activeBackground1": "#5A6964",
+    "editorWhitespace.foreground": "#33333366",
+    "editorLineNumber.foreground": "#5A6964",
+    "editorLineNumber.activeForeground": "#FF6B2D",
+    "sideBar.background": "#141917",
+    "sideBar.foreground": "#E0E5E3",
+    "activityBar.background": "#141917",
+    "activityBar.foreground": "#E0E5E3",
+    "statusBar.background": "#141917",
+    "statusBar.foreground": "#E0E5E3",
+    "statusBarItem.prominentForeground": "#86cea4",
+    "titleBar.activeBackground": "#141917",
+    "titleBar.activeForeground": "#E0E5E3",
+    "tab.activeBackground": "#171C1A",
+    "tab.inactiveBackground": "#141917",
+    "tab.activeForeground": "#FF6B2D",
+    "tab.inactiveForeground": "#5A6964",
+    "editorGroupHeader.tabsBackground": "#141917",
+    "icon.foreground": "#E0E5E3",
+    "toolbar.hoverBackground": "#222925",
+    "editorGroup.border": "#141917",
     "input.background": "#222925",
     "input.foreground": "#E0E5E3",
     "input.border": "#5A6964",
@@ -50,10 +39,6 @@
     "button.hoverBackground": "#a1d9b9",
     "dropdown.background": "#141917",
     "dropdown.border": "#5A6964",
-
-    //======================================================================
-    // SYNTAX HIGHLIGHTING (BRACKETS)
-    //======================================================================
     "editorBracketHighlight.foreground1": "#d3b5d6",
     "editorBracketHighlight.foreground2": "#FFB86C",
     "editorBracketHighlight.foreground3": "#86cea4",
@@ -61,19 +46,11 @@
     "editorBracketHighlight.foreground5": "#a1d9b9",
     "editorBracketHighlight.foreground6": "#E0E5E3",
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF5572",
-
-    //======================================================================
-    // GIT INTEGRATION
-    //======================================================================
-    "gitDecoration.modifiedResourceForeground": "#f5e3a6", // Yellow for modified
-    "gitDecoration.deletedResourceForeground": "#FF5572", // Red for deleted
-    "gitDecoration.untrackedResourceForeground": "#86cea4", // Green for new (untracked)
-    "gitDecoration.conflictingResourceForeground": "#FF6B2D", // Orange for conflicts
-    "gitDecoration.submoduleResourceForeground": "#8D9E97", // Gray for submodules
-
-    //======================================================================
-    // INTEGRATED TERMINAL
-    //======================================================================
+    "gitDecoration.modifiedResourceForeground": "#f5e3a6",
+    "gitDecoration.deletedResourceForeground": "#FF5572",
+    "gitDecoration.untrackedResourceForeground": "#86cea4",
+    "gitDecoration.conflictingResourceForeground": "#FF6B2D",
+    "gitDecoration.submoduleResourceForeground": "#8D9E97",
     "terminal.background": "#171C1A",
     "terminal.foreground": "#E0E5E3",
     "terminalCursor.background": "#FF6B2D",
@@ -96,9 +73,6 @@
     "terminal.ansiBrightWhite": "#f1f6f8"
   },
   "tokenColors": [
-    //======================================================================
-    // SYNTAX COLORING RULES
-    //======================================================================
     {
       "name": "Comentários",
       "scope": ["comment", "punctuation.definition.comment"],
