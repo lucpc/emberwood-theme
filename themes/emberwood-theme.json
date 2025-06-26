@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     "editor.background": "#171C1A",
-    "editor.foreground": "#E0E5E3",
+    "editor.foreground": "#FFB86C",
     "editorCursor.foreground": "#FF6B2D",
     "editor.lineHighlightBackground": "#222925",
     "editor.selectionBackground": "#2A363188",
@@ -41,7 +41,7 @@
     "dropdown.border": "#5A6964",
     "editorBracketHighlight.foreground1": "#d3b5d6",
     "editorBracketHighlight.foreground2": "#FFB86C",
-    "editorBracketHighlight.foreground3": "#86cea4",
+    "editorBracketHighlight.foreground3": "#FF8095",
     "editorBracketHighlight.foreground4": "#f5e3a6",
     "editorBracketHighlight.foreground5": "#a1d9b9",
     "editorBracketHighlight.foreground6": "#E0E5E3",
@@ -83,11 +83,7 @@
       "scope": ["punctuation", "keyword.operator"],
       "settings": { "foreground": "#E0E5E3" }
     },
-    {
-      "name": "Strings",
-      "scope": "string",
-      "settings": { "foreground": "#FF6B2D" }
-    },
+
     {
       "name": "Palavras-chave, Tipos de Armazenamento",
       "scope": ["keyword.control", "storage.type", "storage.modifier"],
@@ -96,17 +92,17 @@
     {
       "name": "Funções",
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#8D9E97" }
+      "settings": { "foreground": "#FF8095" }
     },
     {
-      "name": "Variáveis e Parâmetros",
+      "name": "Variáveis, Parâmetros e Strings",
       "scope": [
         "variable",
         "variable.other",
         "variable.parameter",
         "entity.name.variable"
       ],
-      "settings": { "foreground": "#FFB86C" }
+      "settings": { "foreground": "#d3b5d6" }
     },
     {
       "name": "Constantes, Números, Booleanos",
@@ -115,14 +111,15 @@
         "constant.other",
         "constant.numeric",
         "constant.language.boolean",
-        "support.constant"
+        "support.constant",
+        "string"
       ],
-      "settings": { "foreground": "#f5e3a6" }
+      "settings": { "foreground": "#FF6B2D" }
     },
     {
       "name": "Propriedades e Caracteres de Escape",
       "scope": ["variable.other.property", "constant.character.escape"],
-      "settings": { "foreground": "#d3b5d6" }
+      "settings": { "foreground": "#E0E5E3" }
     },
     {
       "name": "Classes e Tipos",
@@ -132,7 +129,7 @@
         "support.class",
         "support.type"
       ],
-      "settings": { "foreground": "#86cea4" }
+      "settings": { "foreground": "#f8eebd" }
     },
     {
       "name": "Decoradores",
