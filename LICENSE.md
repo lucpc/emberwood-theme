@@ -1,4 +1,4 @@
-MIT License
+pMIT License
 
 Copyright (c) 2025 Lucas Caldas
 
